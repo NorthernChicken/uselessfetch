@@ -1,0 +1,321 @@
+#!/bin/bash
+
+#The following 11 blocks of if/elif statements generate a random number and then from that number determine what to say for each fetch output.
+
+# Operating System
+os_numbers=(1 2 3 4 5 6 7 8 9)
+os_length=${#os_numbers[@]}
+os_random_index=$((RANDOM % os_length))
+os_random=${os_numbers[os_random_index]}
+
+if [[ $os_random -eq 1 ]]; then
+    OS="placeholder1"
+elif [[ $os_random -eq 2 ]]; then
+    OS="placeholder2"
+elif [[ $os_random -eq 3 ]]; then
+    OS="placeholder3"
+elif [[ $os_random -eq 4 ]]; then
+    OS="placeholder4"
+elif [[ $os_random -eq 5 ]]; then
+    OS="placeholder5"
+elif [[ $os_random -eq 6 ]]; then
+    OS="placeholder6"
+elif [[ $os_random -eq 7 ]]; then
+    OS="placeholder7"
+elif [[ $os_random -eq 8 ]]; then
+    OS="placeholder8"
+elif [[ $os_random -eq 9 ]]; then
+    OS="placeholder9"
+fi
+
+#Host
+host_numbers=(1 2 3 4 5 6 7 8 9)
+host_length=${#host_numbers[@]}
+host_random_index=$((RANDOM % host_length))
+host_random=${host_numbers[host_random_index]}
+
+if [[ $host_random -eq 1 ]]; then
+    host="placeholder1"
+elif [[ $host_random -eq 2 ]]; then
+    host="placeholder2"
+elif [[ $host_random -eq 3 ]]; then
+    host="placeholder3"
+elif [[ $host_random -eq 4 ]]; then
+    host="placeholder4"
+elif [[ $host_random -eq 5 ]]; then
+    host="placeholder5"
+elif [[ $host_random -eq 6 ]]; then
+    host="placeholder6"
+elif [[ $host_random -eq 7 ]]; then
+    host="placeholder7"
+elif [[ $host_random -eq 8 ]]; then
+    host="placeholder8"
+elif [[ $host_random -eq 9 ]]; then
+    host="placeholder9"
+fi
+
+#Kernel
+kernel_numbers=(1 2 3 4 5 6 7 8 9)
+kernel_length=${#kernel_numbers[@]}
+kernel_random_index=$((RANDOM % kernel_length))
+kernel_random=${kernel_numbers[kernel_random_index]}
+
+if [[ $kernel_random -eq 1 ]]; then
+    kernel="placeholder1"
+elif [[ $kernel_random -eq 2 ]]; then
+    kernel="placeholder2"
+elif [[ $kernel_random -eq 3 ]]; then
+    kernel="placeholder3"
+elif [[ $kernel_random -eq 4 ]]; then
+    kernel="placeholder4"
+elif [[ $kernel_random -eq 5 ]]; then
+    kernel="placeholder5"
+elif [[ $kernel_random -eq 6 ]]; then
+    kernel="placeholder6"
+elif [[ $kernel_random -eq 7 ]]; then
+    kernel="placeholder7"
+elif [[ $kernel_random -eq 8 ]]; then
+    kernel="placeholder8"
+elif [[ $kernel_random -eq 9 ]]; then
+    kernel="placeholder9"
+fi
+
+#Uptime
+uptime_numbers=(1 2 3 4 5 6 7 8 9)
+uptime_length=${#uptime_numbers[@]}
+uptime_random_index=$((RANDOM % uptime_length))
+uptime_random=${uptime_numbers[uptime_random_index]}
+
+if [[ $uptime_random -eq 1 ]]; then
+    uptime="placeholder1"
+elif [[ $uptime_random -eq 2 ]]; then
+    uptime="placeholder2"
+elif [[ $uptime_random -eq 3 ]]; then
+    uptime="placeholder3"
+elif [[ $uptime_random -eq 4 ]]; then
+    uptime="placeholder4"
+elif [[ $uptime_random -eq 5 ]]; then
+    uptime="placeholder5"
+elif [[ $uptime_random -eq 6 ]]; then
+    uptime="placeholder6"
+elif [[ $uptime_random -eq 7 ]]; then
+    uptime="placeholder7"
+elif [[ $uptime_random -eq 8 ]]; then
+    uptime="placeholder8"
+elif [[ $uptime_random -eq 9 ]]; then
+    uptime="placeholder9"
+fi
+
+#Packages
+packages_numbers=(1 2 3 4 5 6 7 8 9)
+packages_length=${#packages_numbers[@]}
+packages_random_index=$((RANDOM % packages_length))
+packages_random=${packages_numbers[packages_random_index]}
+
+if [[ $packages_random -eq 1 ]]; then
+    packages="placeholder1"
+elif [[ $packages_random -eq 2 ]]; then
+    packages="placeholder2"
+elif [[ $packages_random -eq 3 ]]; then
+    packages="placeholder3"
+elif [[ $packages_random -eq 4 ]]; then
+    packages="placeholder4"
+elif [[ $packages_random -eq 5 ]]; then
+    packages="placeholder5"
+elif [[ $packages_random -eq 6 ]]; then
+    packages="placeholder6"
+elif [[ $packages_random -eq 7 ]]; then
+    packages="placeholder7"
+elif [[ $packages_random -eq 8 ]]; then
+    packages="placeholder8"
+elif [[ $packages_random -eq 9 ]]; then
+    packages="placeholder9"
+fi
+
+#Shell
+shell_numbers=(1 2 3 4 5 6 7 8 9)
+shell_length=${#shell_numbers[@]}
+shell_random_index=$((RANDOM % shell_length))
+shell_random=${shell_numbers[shell_random_index]}
+
+if [[ $shell_random -eq 1 ]]; then
+    shell="placeholder1"
+elif [[ $shell_random -eq 2 ]]; then
+    shell="placeholder2"
+elif [[ $shell_random -eq 3 ]]; then
+    shell="placeholder3"
+elif [[ $shell_random -eq 4 ]]; then
+    shell="placeholder4"
+elif [[ $shell_random -eq 5 ]]; then
+    shell="placeholder5"
+elif [[ $shell_random -eq 6 ]]; then
+    shell="placeholder6"
+elif [[ $shell_random -eq 7 ]]; then
+    shell="placeholder7"
+elif [[ $shell_random -eq 8 ]]; then
+    shell="placeholder8"
+elif [[ $shell_random -eq 9 ]]; then
+    shell="placeholder9"
+fi
+
+#DE
+de_numbers=(1 2 3 4 5 6 7 8 9)
+de_length=${#de_numbers[@]}
+de_random_index=$((RANDOM % de_length))
+de_random=${de_numbers[de_random_index]}
+
+if [[ $de_random -eq 1 ]]; then
+    de="placeholder1"
+elif [[ $de_random -eq 2 ]]; then
+    de="placeholder2"
+elif [[ $de_random -eq 3 ]]; then
+    de="placeholder3"
+elif [[ $de_random -eq 4 ]]; then
+    de="placeholder4"
+elif [[ $de_random -eq 5 ]]; then
+    de="placeholder5"
+elif [[ $de_random -eq 6 ]]; then
+    de="placeholder6"
+elif [[ $de_random -eq 7 ]]; then
+    de="placeholder7"
+elif [[ $de_random -eq 8 ]]; then
+    de="placeholder8"
+elif [[ $de_random -eq 9 ]]; then
+    de="placeholder9"
+fi
+
+#Terminal
+terminal_numbers=(1 2 3 4 5 6 7 8 9)
+terminal_length=${#terminal_numbers[@]}
+terminal_random_index=$((RANDOM % terminal_length))
+terminal_random=${terminal_numbers[terminal_random_index]}
+
+if [[ $terminal_random -eq 1 ]]; then
+    terminal="placeholder1"
+elif [[ $terminal_random -eq 2 ]]; then
+    terminal="placeholder2"
+elif [[ $terminal_random -eq 3 ]]; then
+    terminal="placeholder3"
+elif [[ $terminal_random -eq 4 ]]; then
+    terminal="placeholder4"
+elif [[ $terminal_random -eq 5 ]]; then
+    terminal="placeholder5"
+elif [[ $terminal_random -eq 6 ]]; then
+    terminal="placeholder6"
+elif [[ $terminal_random -eq 7 ]]; then
+    terminal="placeholder7"
+elif [[ $terminal_random -eq 8 ]]; then
+    terminal="placeholder8"
+elif [[ $terminal_random -eq 9 ]]; then
+    terminal="placeholder9"
+fi
+
+#CPU
+cpu_numbers=(1 2 3 4 5 6 7 8 9)
+cpu_length=${#cpu_numbers[@]}
+cpu_random_index=$((RANDOM % cpu_length))
+cpu_random=${cpu_numbers[cpu_random_index]}
+
+if [[ $cpu_random -eq 1 ]]; then
+    cpu="placeholder1"
+elif [[ $cpu_random -eq 2 ]]; then
+    cpu="placeholder2"
+elif [[ $cpu_random -eq 3 ]]; then
+    cpu="placeholder3"
+elif [[ $cpu_random -eq 4 ]]; then
+    cpu="placeholder4"
+elif [[ $cpu_random -eq 5 ]]; then
+    cpu="placeholder5"
+elif [[ $cpu_random -eq 6 ]]; then
+    cpu="placeholder6"
+elif [[ $cpu_random -eq 7 ]]; then
+    cpu="placeholder7"
+elif [[ $cpu_random -eq 8 ]]; then
+    cpu="placeholder8"
+elif [[ $cpu_random -eq 9 ]]; then
+    cpu="placeholder9"
+fi
+
+#GPU
+gpu_numbers=(1 2 3 4 5 6 7 8 9)
+gpu_length=${#gpu_numbers[@]}
+gpu_random_index=$((RANDOM % gpu_length))
+gpu_random=${gpu_numbers[gpu_random_index]}
+
+if [[ $gpu_random -eq 1 ]]; then
+    gpu="placeholder1"
+elif [[ $gpu_random -eq 2 ]]; then
+    gpu="placeholder2"
+elif [[ $gpu_random -eq 3 ]]; then
+    gpu="placeholder3"
+elif [[ $gpu_random -eq 4 ]]; then
+    gpu="placeholder4"
+elif [[ $gpu_random -eq 5 ]]; then
+    gpu="placeholder5"
+elif [[ $gpu_random -eq 6 ]]; then
+    gpu="placeholder6"
+elif [[ $gpu_random -eq 7 ]]; then
+    gpu="placeholder7"
+elif [[ $gpu_random -eq 8 ]]; then
+    gpu="placeholder8"
+elif [[ $gpu_random -eq 9 ]]; then
+    gpu="placeholder9"
+fi
+
+#Memory
+memory_numbers=(1 2 3 4 5 6 7 8 9)
+memory_length=${#memory_numbers[@]}
+memory_random_index=$((RANDOM % memory_length))
+memory_random=${memory_numbers[memory_random_index]}
+
+if [[ $memory_random -eq 1 ]]; then
+    memory="placeholder1"
+elif [[ $memory_random -eq 2 ]]; then
+    memory="placeholder2"
+elif [[ $memory_random -eq 3 ]]; then
+    memory="placeholder3"
+elif [[ $memory_random -eq 4 ]]; then
+    memory="placeholder4"
+elif [[ $memory_random -eq 5 ]]; then
+    memory="placeholder5"
+elif [[ $memory_random -eq 6 ]]; then
+    memory="placeholder6"
+elif [[ $memory_random -eq 7 ]]; then
+    memory="placeholder7"
+elif [[ $memory_random -eq 8 ]]; then
+    memory="placeholder8"
+elif [[ $memory_random -eq 9 ]]; then
+    memory="placeholder9"
+fi
+
+
+
+echo -e "                 .88888888:.                                         \e[1mUSELESSFETCH\e[0m"
+echo -e "                88888888.88888.                       ------------------------------------------"
+echo -e "              .8888888888888888.                      \e[31myourusername\e[0m@\e[31mtherandomnameyouchoseforyourpc\e[0m"
+echo -e "              888888888888888888                      \e[32m\e[1mOperating System\e[0m: $OS"
+echo -e "              88 _-88 _  -88888:                      \e[32m\e[1mHost\e[0m: $host"
+echo -e "              88 88 88 88  88888                      \e[32m\e[1mKernel\e[0m: $kernel"
+echo -e "              88_88_::_88_:88888                      \e[32m\e[1mUptime\e[0m: $uptime"
+echo -e "              88:::,::,:::::8888                      \e[32m\e[1mPackages\e[0m: $packages"
+echo -e "              88-:::::::::--8888                      \e[32m\e[1mShell\e[0m: $shell"
+echo -e "             .88  -::::-    8:88.                     \e[32m\e[1mDE\e[0m: $de"
+echo -e "            8888             8:888.                   \e[32m\e[1mTerminal\e[0m: $terminal"
+echo -e "          .8888'              888888.                 \e[32m\e[1mCPU\e[0m: $cpu"
+echo -e "         .8888:..  .::.  ...: 8888888:.               \e[32m\e[1mGPU\e[0m: $gpu"
+echo -e "        .8888.      :       :: 88:88888               \e[32m\e[1mMemory\e[0m: $memory"
+echo -e "       .8888                   .888:8888.        "
+echo -e "      888:8         .           888:88888        "
+echo -e "    .888:88        .:           888:88888:            What do these colors even mean? Hmm..."
+echo -e "    8888888.       ::           88:888888        "
+echo -e "    8.::.888.      ::          .88888888               \e[34m████\e[31m████\e[37m████\e[31m████"
+echo -e "\e[0m   .::::::.888.    ::         ::::8888..:.             \e[31m████\e[34m████\e[33m████\e[32m████\e[34m████"
+echo -e "\e[0m  ::::::::::.888   '         .::::::::::::       "
+echo -e "  ::::::::::::.8           .:8::::::::::::.      "
+echo -e " .::::::::::::::.        .:888:::::::::::::      "
+echo -e " :::::::::::::::88:.__..:88888::::::::::::       "
+echo -e "   :::::::::::::88888888888.88:::::::::          "
+echo -e "          :::_:             ^^:_::::::           "
+echo -e ""
+
+echo -e 'We couldn'\''t'' detect your operating system (or maybe we just didn'\''t'' try) so here'\''s'' tux instead.'
