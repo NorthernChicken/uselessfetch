@@ -9,23 +9,23 @@ os_random_index=$((RANDOM % os_length))
 os_random=${os_numbers[os_random_index]}
 
 if [[ $os_random -eq 1 ]]; then
-    OS="placeholder1"
+    OS="Idk. Probably Linux"
 elif [[ $os_random -eq 2 ]]; then
-    OS="placeholder2"
+    OS="Linux I suppose?"
 elif [[ $os_random -eq 3 ]]; then
-    OS="placeholder3"
+    OS="Not Windows"
 elif [[ $os_random -eq 4 ]]; then
-    OS="placeholder4"
+    OS="A Linux distro"
 elif [[ $os_random -eq 5 ]]; then
-    OS="placeholder5"
+    OS="Any OS that supports bash"
 elif [[ $os_random -eq 6 ]]; then
-    OS="placeholder6"
+    OS="One of them distros"
 elif [[ $os_random -eq 7 ]]; then
-    OS="placeholder7"
+    OS="LINUX!!!!!"
 elif [[ $os_random -eq 8 ]]; then
-    OS="placeholder8"
+    OS="Penguins."
 elif [[ $os_random -eq 9 ]]; then
-    OS="placeholder9"
+    OS="Figure it out yourself."
 fi
 
 #Host
@@ -35,23 +35,23 @@ host_random_index=$((RANDOM % host_length))
 host_random=${host_numbers[host_random_index]}
 
 if [[ $host_random -eq 1 ]]; then
-    host="placeholder1"
+    host="Your grandma's 1994 Toshiba"
 elif [[ $host_random -eq 2 ]]; then
-    host="placeholder2"
+    host="computer"
 elif [[ $host_random -eq 3 ]]; then
-    host="placeholder3"
+    host="computer"
 elif [[ $host_random -eq 4 ]]; then
-    host="placeholder4"
+    host="computer"
 elif [[ $host_random -eq 5 ]]; then
-    host="placeholder5"
+    host="potato"
 elif [[ $host_random -eq 6 ]]; then
-    host="placeholder6"
+    host="iPhone 5c"
 elif [[ $host_random -eq 7 ]]; then
-    host="placeholder7"
+    host="Just look at your dang PC and figure it out."
 elif [[ $host_random -eq 8 ]]; then
-    host="placeholder8"
+    host="Tesla Model S"
 elif [[ $host_random -eq 9 ]]; then
-    host="placeholder9"
+    host="TI-84 Plus Graphing Calculator"
 fi
 
 #Kernel
@@ -61,23 +61,23 @@ kernel_random_index=$((RANDOM % kernel_length))
 kernel_random=${kernel_numbers[kernel_random_index]}
 
 if [[ $kernel_random -eq 1 ]]; then
-    kernel="placeholder1"
+    kernel="Uhh, Linux. Or BSD if you're that type of person."
 elif [[ $kernel_random -eq 2 ]]; then
-    kernel="placeholder2"
+    kernel="Linux"
 elif [[ $kernel_random -eq 3 ]]; then
-    kernel="placeholder3"
+    kernel="The Linux Kernel"
 elif [[ $kernel_random -eq 4 ]]; then
-    kernel="placeholder4"
+    kernel="Not the Windows Kernel"
 elif [[ $kernel_random -eq 5 ]]; then
-    kernel="placeholder5"
+    kernel="Popcorn kernel"
 elif [[ $kernel_random -eq 6 ]]; then
-    kernel="placeholder6"
+    kernel="The one Linus Torvalds made"
 elif [[ $kernel_random -eq 7 ]]; then
-    kernel="placeholder7"
+    kernel="Like in popcorn? No thanks."
 elif [[ $kernel_random -eq 8 ]]; then
-    kernel="placeholder8"
+    kernel="Mmmm, popcorn."
 elif [[ $kernel_random -eq 9 ]]; then
-    kernel="placeholder9"
+    kernel="The Linux Kernel. Yup. Never would've guessed."
 fi
 
 #Uptime
@@ -87,23 +87,23 @@ uptime_random_index=$((RANDOM % uptime_length))
 uptime_random=${uptime_numbers[uptime_random_index]}
 
 if [[ $uptime_random -eq 1 ]]; then
-    uptime="placeholder1"
+    uptime="16 hours continuous use. Go touch grass."
 elif [[ $uptime_random -eq 2 ]]; then
-    uptime="placeholder2"
+    uptime="6 hours straight on SuperTuxKart. Go touch grass."
 elif [[ $uptime_random -eq 3 ]]; then
-    uptime="placeholder3"
+    uptime="Too much"
 elif [[ $uptime_random -eq 4 ]]; then
-    uptime="placeholder4"
+    uptime="You've been trying to fix grub for 5 hours"
 elif [[ $uptime_random -eq 5 ]]; then
-    uptime="placeholder5"
+    uptime="You had a life before you got Linux..."
 elif [[ $uptime_random -eq 6 ]]; then
-    uptime="placeholder6"
+    uptime="An embarrassingly large number"
 elif [[ $uptime_random -eq 7 ]]; then
-    uptime="placeholder7"
+    uptime="Too long"
 elif [[ $uptime_random -eq 8 ]]; then
-    uptime="placeholder8"
+    uptime="You're still playing SuperTuxKart?!"
 elif [[ $uptime_random -eq 9 ]]; then
-    uptime="placeholder9"
+    uptime="22 hours continuous use. Go touch grass."
 fi
 
 #Packages
@@ -113,23 +113,23 @@ packages_random_index=$((RANDOM % packages_length))
 packages_random=${packages_numbers[packages_random_index]}
 
 if [[ $packages_random -eq 1 ]]; then
-    packages="placeholder1"
+    packages="A few"
 elif [[ $packages_random -eq 2 ]]; then
-    packages="placeholder2"
+    packages="Just a couple"
 elif [[ $packages_random -eq 3 ]]; then
-    packages="placeholder3"
+    packages="LOL you still use apt? Weak Ubuntu user"
 elif [[ $packages_random -eq 4 ]]; then
-    packages="placeholder4"
+    packages="2"
 elif [[ $packages_random -eq 5 ]]; then
-    packages="placeholder5"
+    packages="More than 4"
 elif [[ $packages_random -eq 6 ]]; then
-    packages="placeholder6"
+    packages="4 (UPS) 3 (FedEX) 12 (USPS)"
 elif [[ $packages_random -eq 7 ]]; then
-    packages="placeholder7"
+    packages="3 (UPS) 1 (FedEX) 7 (USPS)"
 elif [[ $packages_random -eq 8 ]]; then
-    packages="placeholder8"
+    packages="We get it, you use pacman..."
 elif [[ $packages_random -eq 9 ]]; then
-    packages="placeholder9"
+    packages="Some number"
 fi
 
 #Shell
@@ -139,23 +139,23 @@ shell_random_index=$((RANDOM % shell_length))
 shell_random=${shell_numbers[shell_random_index]}
 
 if [[ $shell_random -eq 1 ]]; then
-    shell="placeholder1"
+    shell="Bash I suppose?"
 elif [[ $shell_random -eq 2 ]]; then
-    shell="placeholder2"
+    shell="Not Poweshell"
 elif [[ $shell_random -eq 3 ]]; then
-    shell="placeholder3"
+    shell="Probably Bash"
 elif [[ $shell_random -eq 4 ]]; then
-    shell="placeholder4"
+    shell="You're running a Bash script, stupid"
 elif [[ $shell_random -eq 5 ]]; then
-    shell="placeholder5"
+    shell="One of them"
 elif [[ $shell_random -eq 6 ]]; then
-    shell="placeholder6"
+    shell="Not Command Prompt"
 elif [[ $shell_random -eq 7 ]]; then
-    shell="placeholder7"
+    shell="Like a seashell? Cool."
 elif [[ $shell_random -eq 8 ]]; then
-    shell="placeholder8"
+    shell="Why would you use anything other than Bash"
 elif [[ $shell_random -eq 9 ]]; then
-    shell="placeholder9"
+    shell="Like the oil company?"
 fi
 
 #DE
@@ -165,23 +165,23 @@ de_random_index=$((RANDOM % de_length))
 de_random=${de_numbers[de_random_index]}
 
 if [[ $de_random -eq 1 ]]; then
-    de="placeholder1"
+    de="One of them"
 elif [[ $de_random -eq 2 ]]; then
-    de="placeholder2"
+    de="True Linux users don't need a desktop enviroment."
 elif [[ $de_random -eq 3 ]]; then
-    de="placeholder3"
+    de="Desktop enviroment? Weakling."
 elif [[ $de_random -eq 4 ]]; then
-    de="placeholder4"
+    de="Why use a desktop enviroment? A terminal is all you need."
 elif [[ $de_random -eq 5 ]]; then
-    de="placeholder5"
+    de="GNOME is overrated"
 elif [[ $de_random -eq 6 ]]; then
-    de="placeholder6"
+    de="Desktop enviroments are overrated"
 elif [[ $de_random -eq 7 ]]; then
-    de="placeholder7"
+    de="Idk, figure it out yourself."
 elif [[ $de_random -eq 8 ]]; then
-    de="placeholder8"
+    de="Don't ask me, you should already know this"
 elif [[ $de_random -eq 9 ]]; then
-    de="placeholder9"
+    de="What? Desktop enviroment?"
 fi
 
 #Terminal
@@ -191,23 +191,23 @@ terminal_random_index=$((RANDOM % terminal_length))
 terminal_random=${terminal_numbers[terminal_random_index]}
 
 if [[ $terminal_random -eq 1 ]]; then
-    terminal="placeholder1"
+    terminal="You tell me."
 elif [[ $terminal_random -eq 2 ]]; then
-    terminal="placeholder2"
+    terminal="Linux terminal?"
 elif [[ $terminal_random -eq 3 ]]; then
-    terminal="placeholder3"
+    terminal="Whatever your DE uses. If you have a DE."
 elif [[ $terminal_random -eq 4 ]]; then
-    terminal="placeholder4"
+    terminal="Not the Windows terminal."
 elif [[ $terminal_random -eq 5 ]]; then
-    terminal="placeholder5"
+    terminal="Why does KDE Plasma call it 'Konsole?' Ew."
 elif [[ $terminal_random -eq 6 ]]; then
-    terminal="placeholder6"
+    terminal="Root if you're a nerd"
 elif [[ $terminal_random -eq 7 ]]; then
-    terminal="placeholder7"
+    terminal="One of them?"
 elif [[ $terminal_random -eq 8 ]]; then
-    terminal="placeholder8"
+    terminal="Idk. Does it really matter?"
 elif [[ $terminal_random -eq 9 ]]; then
-    terminal="placeholder9"
+    terminal="¯\_(ツ)_/¯"
 fi
 
 #CPU
@@ -217,23 +217,23 @@ cpu_random_index=$((RANDOM % cpu_length))
 cpu_random=${cpu_numbers[cpu_random_index]}
 
 if [[ $cpu_random -eq 1 ]]; then
-    cpu="placeholder1"
+    cpu="Intel Core 2 Duo 2006"
 elif [[ $cpu_random -eq 2 ]]; then
-    cpu="placeholder2"
+    cpu="Intel Core i9 13th Gen"
 elif [[ $cpu_random -eq 3 ]]; then
-    cpu="placeholder3"
+    cpu="AMD, of course."
 elif [[ $cpu_random -eq 4 ]]; then
-    cpu="placeholder4"
+    cpu="Apple M2 Ultra"
 elif [[ $cpu_random -eq 5 ]]; then
-    cpu="placeholder5"
+    cpu="Tesla MCU3 Ryzen chip"
 elif [[ $cpu_random -eq 6 ]]; then
-    cpu="placeholder6"
+    cpu="Intel 4004"
 elif [[ $cpu_random -eq 7 ]]; then
-    cpu="placeholder7"
+    cpu="Motorola 68000 from a TI-92 calculator"
 elif [[ $cpu_random -eq 8 ]]; then
-    cpu="placeholder8"
+    cpu="011 Microprocessor from a dishwasher"
 elif [[ $cpu_random -eq 9 ]]; then
-    cpu="placeholder9"
+    cpu="Open up your computer and look at the CPU yourself."
 fi
 
 #GPU
@@ -243,23 +243,23 @@ gpu_random_index=$((RANDOM % gpu_length))
 gpu_random=${gpu_numbers[gpu_random_index]}
 
 if [[ $gpu_random -eq 1 ]]; then
-    gpu="placeholder1"
+    gpu="NVIDIA GeForce RTX 4090 Ti"
 elif [[ $gpu_random -eq 2 ]]; then
-    gpu="placeholder2"
+    gpu="AMD Radeon RX 7700 XTX"
 elif [[ $gpu_random -eq 3 ]]; then
-    gpu="placeholder3"
+    gpu="Probably AMD, if you're using Linux"
 elif [[ $gpu_random -eq 4 ]]; then
-    gpu="placeholder4"
+    gpu="That big box at the bottom"
 elif [[ $gpu_random -eq 5 ]]; then
-    gpu="placeholder5"
+    gpu="Tesla AMD Radeon marked 215-130000026"
 elif [[ $gpu_random -eq 6 ]]; then
-    gpu="placeholder6"
+    gpu="You're too good for a GPU. CLI is all you need!"
 elif [[ $gpu_random -eq 7 ]]; then
-    gpu="placeholder7"
+    gpu="Is that.. Nvidia? Traitor!"
 elif [[ $gpu_random -eq 8 ]]; then
-    gpu="placeholder8"
+    gpu="Eww, Nvidia. Proprietary filth."
 elif [[ $gpu_random -eq 9 ]]; then
-    gpu="placeholder9"
+    gpu="AMD Rocks!"
 fi
 
 #Memory
@@ -269,30 +269,32 @@ memory_random_index=$((RANDOM % memory_length))
 memory_random=${memory_numbers[memory_random_index]}
 
 if [[ $memory_random -eq 1 ]]; then
-    memory="placeholder1"
+    memory="2 MiB / 50 MiB. It's all you need."
 elif [[ $memory_random -eq 2 ]]; then
-    memory="placeholder2"
+    memory="15.5 GiB / 16 GiB. You really are bloated!"
 elif [[ $memory_random -eq 3 ]]; then
-    memory="placeholder3"
+    memory="Corsair RGB Gaming RAM w/ heat dissipation - NERD"
 elif [[ $memory_random -eq 4 ]]; then
-    memory="placeholder4"
+    memory="You don't need 32 GiB RAM. Just why."
 elif [[ $memory_random -eq 5 ]]; then
-    memory="placeholder5"
+    memory="2 GiB DDR2. If it ain't broke, don't fix it. But maybe still do."
 elif [[ $memory_random -eq 6 ]]; then
-    memory="placeholder6"
+    memory="Imagine having more than 16 GiB"
 elif [[ $memory_random -eq 7 ]]; then
-    memory="placeholder7"
+    memory="Just enough to play SuperTuxKart."
 elif [[ $memory_random -eq 8 ]]; then
-    memory="placeholder8"
+    memory="Hmmm... seems bloated."
 elif [[ $memory_random -eq 9 ]]; then
-    memory="placeholder9"
+    memory="You just barely pass the SuperTuxKart minimum requirements."
 fi
 
+user=$(whoami)
+hostname=$(hostname)
 
 
 echo -e "                 .88888888:.                                         \e[1mUSELESSFETCH\e[0m"
 echo -e "                88888888.88888.                       ------------------------------------------"
-echo -e "              .8888888888888888.                      \e[31myourusername\e[0m@\e[31mtherandomnameyouchoseforyourpc\e[0m"
+echo -e "              .8888888888888888.                      \e[31m$user\e[0m@\e[31m$hostname\e[0m"
 echo -e "              888888888888888888                      \e[32m\e[1mOperating System\e[0m: $OS"
 echo -e "              88 _-88 _  -88888:                      \e[32m\e[1mHost\e[0m: $host"
 echo -e "              88 88 88 88  88888                      \e[32m\e[1mKernel\e[0m: $kernel"
