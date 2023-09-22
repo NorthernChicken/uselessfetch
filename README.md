@@ -6,3 +6,5 @@ There are too many useful [fetches](https://github.com/beucismis/awesome-fetch#o
 2. ```cd uselessfetch```
 3. ```chmod +x uselessfetch```
 4. ```./uselessfetch```
+
+Try running a couple times, outputs *should* be random each time
