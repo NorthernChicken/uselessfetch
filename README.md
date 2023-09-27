@@ -15,3 +15,4 @@ Try running a couple times, outputs *should* be random each time.
 # Known Issues
 * Tux isn't colored
 * "Random" outputs sometimes repeat twice or thrice for some reason
+* Colors aren't random
